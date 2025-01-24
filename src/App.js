@@ -22,6 +22,7 @@ function App() {
           </div>
         </div>
         <div className='lowerSide'>
+        <h1  className='listItems'>Quick Access</h1>
           <div className='listItems'><img src={home} alt='' className='listitemsImg' />Home</div>
           <div className='listItems'><img src={saved} alt='' className='listitemsImg' />Saved</div>
           <div className='listItems'><img src={rocket} alt='' className='listitemsImg' />Upgrade to Pro</div>
