@@ -5,6 +5,7 @@ import msgIcon from './assets/message.svg'
 import home from './assets/home.svg'
 import rocket from './assets/rocket.svg'
 import saved from './assets/bookmark.svg'
+import history from './assets/history.svg'
 
 
 function App() {
@@ -19,6 +20,8 @@ function App() {
           <div className='upperSideBottom'>
               <button className='query'><img src={msgIcon} alt='first Btn' />What is Programming?</button>
               <button className='query'><img src={msgIcon} alt='second Btn' />How to use an AI?</button>
+              <button className='query'><img src={msgIcon} alt='first Btn' />What is Web Development?</button>
+              <button className='query'><img src={msgIcon} alt='second Btn' />What is an API?</button>
           </div>
         </div>
         <div className='lowerSide'>
@@ -26,6 +29,7 @@ function App() {
           <div className='listItems'><img src={home} alt='' className='listitemsImg' />Home</div>
           <div className='listItems'><img src={saved} alt='' className='listitemsImg' />Saved</div>
           <div className='listItems'><img src={rocket} alt='' className='listitemsImg' />Upgrade to Pro</div>
+          <div className='listItems'><img src={history} alt='' className='listitemsImg' />History</div>
         </div>
       </div>
       <div className='main'></div>
