@@ -111,6 +111,31 @@ body {
   box-shadow: 0 0 5px rgba(87, 75, 220, 0.5);
 }
 
+.lowerSide{
+  padding: 2rem;
+}
+
+.listItems{
+  margin: 0.75rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.listitemsImg{
+  margin: 1rem;
+  padding-right: 0.5rem;
+}
+
+.listItems:nth-child(1) > .listitemsImg{
+  margin-right: 0.5rem;
+}
+
+.listItems:nth-child(3) > .listitemsImg{
+  margin-right: 0.75rem;
+}
+
 
 
 
