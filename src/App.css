@@ -46,7 +46,7 @@ body {
 .upperSideTop{
   display: flex;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .addBtn{
@@ -68,7 +68,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 
 }
 
@@ -89,7 +89,7 @@ body {
   background: transparent;
   color: white;
   border: 1px solid rgb(87, 75, 220);
-  padding: 1.5rem;
+  padding: 1.4rem;
   margin: 1rem auto;
   width: 25rem;
   border-radius: 0.5rem;
@@ -114,11 +114,11 @@ body {
 }
 
 .lowerSide{
-  padding: 3rem;
+  padding: 2rem;
 }
 
 .lowerSide>h1{
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   font-weight: lighter;
   font-size: 2rem;
   color: #ebdbea;
@@ -126,7 +126,7 @@ body {
 }
 
 .listItems{
-  margin: 1rem;
+  margin: 0.5rem;
   display: flex;
   align-items: center;
   font-size: 1.5rem;
@@ -145,7 +145,7 @@ body {
 }
 
 .listitemsImg{
-  margin: 1rem;
+  margin: 0.8rem;
   padding-right: 0.5rem;
 }
 
@@ -162,7 +162,48 @@ body {
   margin-left: 0.50rem;
 }
 
+.main{
+  min-height: calc(100vh -14rem);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin: 6rem 10rem;
+  margin-bottom: 0;
+}
 
+.chatFooter{
+  margin-top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.inp{
+  background-color: rgba(28, 30, 58, 1);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  width: 70rem;
+}
 
+.inp>input{
+  width: calc(100% - 3rem);
+  outline: none;
+  padding: 1.25rem;
+  color: white;
+}
+
+.inp>input, .send{
+  background-color: transparent;
+  border: none;
+}
+
+.chatFooter>i{
+  color: white;
+  margin: 2rem 0;
+  font-size: 1.3rem;
+}
 
