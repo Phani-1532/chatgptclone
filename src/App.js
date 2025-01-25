@@ -38,10 +38,10 @@ function App() {
       <div className='main'>
         <div className='chats'>
           <div className='chat'>
-            <img src={userIcon} alt='chatBot' /><p className='txt'>Hello, ChatGPT!</p>
+            <img className='chatImg' src={userIcon} alt='chatBot' /><p className='txt'>Hello, ChatGPT!</p>
           </div>
-          <div className='chat'>
-            <img src={gptImgLogo} alt='chatBot' /><p className='txt'>Hey! How’s it going? 😊</p>
+          <div className='chat bot'>
+            <img className='chatImg' src={gptImgLogo} alt='chatBot' /><p className='txt'>Hey! How’s it going? 😊</p>
           </div>
         </div>
         <div className='chatFooter'>
